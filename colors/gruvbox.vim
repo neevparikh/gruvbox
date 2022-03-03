@@ -1660,7 +1660,7 @@ hi! link rustStringContinuation GruvboxAqua
 hi! link rustEnum GruvboxAqua
 hi! link rustStructure GruvboxAqua
 hi! link rustModPathSep GruvboxFg2
-hi! link rustCommentLineDoc GruvboxOrange 
+hi! link rustCommentLineDoc SpecialComment 
 hi! link rustDefault GruvboxAqua
 
 " }}}
