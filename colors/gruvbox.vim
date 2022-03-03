@@ -673,6 +673,7 @@ else
   call s:HL('Special', s:gb.orange, s:gb.bg1, s:italicize_strings)
 endif
 
+call s:HL('SpecialComment', s:gb.orange, s:gb.bg1, s:italicize_comments)
 call s:HL('Comment', s:gb.gray, s:none, s:italicize_comments)
 call s:HL('Todo', s:vim_fg, s:none, s:bold . s:italic)
 call s:HL('Error', s:gb.red, s:none, s:bold . s:inverse)
@@ -1659,7 +1660,7 @@ hi! link rustStringContinuation GruvboxAqua
 hi! link rustEnum GruvboxAqua
 hi! link rustStructure GruvboxAqua
 hi! link rustModPathSep GruvboxFg2
-hi! link rustCommentLineDoc Comment
+hi! link rustCommentLineDoc GruvboxOrange 
 hi! link rustDefault GruvboxAqua
 
 " }}}
